@@ -1,0 +1,39 @@
+nav{
+    display:flex;
+
+}
+/*  comma shared style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-title{
+    color: #000000;
+font-size: 45px;
+font-weight: 800;
+}
+.text-primary{
+   color :#FD6E0A;
+
+}
+nav > ul{
+    display:flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration : none;
+    color: #474747;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+padding: 15px 30px;
+font-size: 20px;
+color: white;
+font-weight: 700px;
+
+}
