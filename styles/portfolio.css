@@ -1,5 +1,10 @@
+/* nav related style */
+
 nav{
     display:flex;
+    /* justify-content:space-between; */
+    justify-content: space-between;
+    align-items: center;
 
 }
 /*  comma shared style*/
@@ -28,12 +33,20 @@ nav a{
     color: #474747;
 }
 .btn-primary{
-    border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-padding: 15px 30px;
-font-size: 20px;
-color: white;
-font-weight: 700px;
+    border-radius:5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 30px;
+}
 
+
+/* header related style */
+.header{
+      background: color #fff8f3; ;
+}
+.banner{
+    padding: 30px 30px 30px 50px;
 }
