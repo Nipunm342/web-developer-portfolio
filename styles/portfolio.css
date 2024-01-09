@@ -45,8 +45,17 @@ nav a{
 
 /* header related style */
 .header{
-      background: color #fff8f3; ;
+      background-color: #f3ece8;
 }
+
 .banner{
-    padding: 30px 30px 30px 50px;
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    
+    width: 500px;
+
+
 }
