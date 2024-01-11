@@ -131,8 +131,8 @@ main{
     display: flex;
     gap: 50px;
 }
-.resume-item-description{
-    color:#474747;
+.{
+    
 }
 .resume-itme-title{
     color:#474747;
@@ -143,12 +143,24 @@ main{
 .resume-container hr{
         margin: 20px; 
     } 
-.resume-itme-institute{
-    margin-bottom: 20px;
-    margin-top: 0px;
+.resume-itme-institute, .resume-item-description {
+    
+    color:#474747;
+    
+
 }    
 .download-cv{
     text-align: center;
     margin-top: 50px;
 
+}
+/* footer style */
+footer {
+   display: flex;
+   background-color: rgb(229, 221, 210);
+   padding: 130px 200px;
+   margin-top: 100px;
+}
+.resume-container hr{
+    margin: 30px;
 }
